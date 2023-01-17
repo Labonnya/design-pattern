@@ -3,7 +3,7 @@ package Drink;
 public class Coke extends DrinkType{
    
 
-    protected void construct() {
+    protected void constructing() {
         System.out.println("Serving Coke");
     }
 }
