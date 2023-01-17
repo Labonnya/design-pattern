@@ -11,7 +11,7 @@ public abstract class Drink {
     }
 
     //Do sub-class level processing here
-    protected abstract void construct();
+    protected abstract DrinkType construct();
 
     private DrinkType beverage = null;
 
