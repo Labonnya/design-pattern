@@ -1,10 +1,7 @@
 package Drink;
 
-public class Sprite extends Drink{
-    Sprite() {
-        super(DrinkType.SPRITE);
-        construct();
-    }
+public class Sprite extends DrinkType{
+    
 
     protected void construct() {
         System.out.println("Serving Sprite");
