@@ -1,10 +1,7 @@
 package Drink;
 
-public class Fanta extends Drink{
-    Fanta() {
-        super(DrinkType.FANTA);
-        construct();
-    }
+public class Fanta extends DrinkType{
+    
 
     protected void construct() {
         System.out.println("Serving Fanta");
